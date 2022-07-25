@@ -1,11 +1,11 @@
 # A simple Guide to Backend development #
 
-<details>
-   <summary>File Meanings:</summary>
-   <p>db.js contains the main connectivity to PostgreSQL</p>
-   <p>index.js contains CRUD operation functions and establishes the connection on specified port</p>
-   <p>database.sql contains some RAW SQL queries for reference</p>
-</details>
+   [db.js](#dbjs "Go to db.js") contains the main connectivity to PostgreSQL
+   
+   [index.js](#indexjs "Go to index.js") contains CRUD operation functions and establishes the connection on specified port
+   
+   [database.sql](#databasesql "Go to database.sql") contains some RAW SQL queries for reference
+
 
 STEP 1 :point_right: ``` npm init ``` To create a `package.json` file
                     You can Skip and create all the keys empty for `package.json`
@@ -18,6 +18,7 @@ Alternatively we can use ```nodemon index``` to run index.js and automatically r
 
 
 # Each File Contents #
+:sunny: 
 #### db.js ####
 for connection pool use: ```const Pool = require("pg").Pool```
 
@@ -51,38 +52,41 @@ const pool = new Pool({
 module.exports = pool;
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ----
+:sunny:     
 #### index.js ####
 
-heloo
+----
+:sunny:     
+#### database.sql ####
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
